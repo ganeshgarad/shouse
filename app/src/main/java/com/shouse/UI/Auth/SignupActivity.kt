@@ -1,12 +1,13 @@
-package com.shouse
+package com.shouse.UI.Auth
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.shouse.R
 
-class MainActivity : AppCompatActivity() {
+class SignupActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_signup)
     }
 }

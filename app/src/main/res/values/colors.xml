@@ -3,4 +3,9 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="shadow_color">#C7D0F8</color>
+<!--    Button Color Shade-->
+    <color name="colorBlue">#4A69FF</color>
+    <color name="colorGreen">#4AD384</color>
 </resources>

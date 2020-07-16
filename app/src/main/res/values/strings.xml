@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SHouse</string>
+    <string name="welcome">Welcome</string>
+    <string name="enterMobile">Enter Your Mobile Number</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="getOtp">Get OTP</string>
 </resources>
