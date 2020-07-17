@@ -9,7 +9,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:orientation="vertical"
-
         >
 
         <ImageView
@@ -29,6 +28,7 @@
            android:textColor="@android:color/black"
            />
         <TextView
+            android:id="@+id/titleTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -39,6 +39,7 @@
             android:textColor="@android:color/black"
             />
         <EditText
+            android:id="@+id/mobileEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -53,7 +54,25 @@
             android:autofillHints="@string/enterMobile"
             android:textSize="20sp"
             />
+        <EditText
+            android:id="@+id/otpEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:padding="12dp"
+            android:inputType="number"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"
+            android:drawableEnd="@drawable/ic_lock"
+            android:background="@drawable/round_corner"
+            android:hint="@string/otp"
+            android:autofillHints="@string/otp"
+            android:textSize="20sp"
+            />
         <TextView
+            android:id="@+id/actionBtnEditText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
